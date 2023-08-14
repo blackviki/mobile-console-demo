@@ -11,14 +11,18 @@ html, body {
 }
 
 html, body {
-  user-select: none;
-  font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-user-select: none;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -webkit-font-feature-settings: "kern";
   font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  font-synthesis: none;
+  overscroll-behavior: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
