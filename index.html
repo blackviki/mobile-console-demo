@@ -19,18 +19,18 @@ console.warn('warn');
 console.error('error');
 console.debug('debug');
 
-console.log('strings and objects', 'hello', 'world"', {'a': 'b', 'c': '"d"', 'e': "'f'"});
+console.log('strings and objects:', 'hello', 'world"', {'a': 'b', 'c': '"d"', 'e': "'f'"});
 
 function testFunc() {
   console.log('hello');
 }
 
-console.log('booleans, numbers, and functions',
+console.log('booleans, numbers, and functions:',
             false, !false, 234.342, testFunc, () => { console.log('anonymous') });
 
-console.log('null, undefined, and NaN', null, undefined, NaN);
+console.log('null, undefined, and NaN:', null, undefined, NaN);
 
-console.log('arrays with objects', [
+console.log('arrays with objects:', [
 {
   name: 'one',
   object: {
@@ -56,22 +56,22 @@ const test = {
   }
 };
 
-console.log('objects with getters', test);
+console.log('objects with getters:', test);
 
 for (let i = 0; i < 10; i++) {
-  console.log('consecutive identical logs');
+  console.log('consecutive identical logs:');
 }
 
-console.log('objects with functions', {a: testFunc, b: testFunc}, testFunc);
+console.log('objects with functions:', {a: testFunc, b: testFunc}, testFunc);
 
-console.log('objects with various entities', [1, 2, 3, { 'a': 3, 2: 'a', b: { a: 'c'} }]);
+console.log('objects with various entities:', [1, 2, 3, { 'a': 3, 2: 'a', b: { a: 'c'} }]);
 
 console.log('native errors:');
 console.log(undefinedVariableForError);
 
 console.log('long logs'.repeat(500));
 
-console.log('native objects', window);
+console.log('native objects:', window);
 
 </script>
 
