@@ -30,7 +30,7 @@ console.log('booleans, numbers, and functions:',
 
 console.log('null, undefined, and NaN:', null, undefined, NaN);
 
-console.log('arrays with objects:', [
+console.log('arrays with objects and numbers:', [
 {
   name: 'one',
   object: {
@@ -46,7 +46,7 @@ console.log('arrays with objects:', [
       from: 167
     }
   ]
-}, {}, {}
+}, {}, {}, 1, 2
 ]);
 
 const test = {
@@ -63,8 +63,6 @@ for (let i = 0; i < 5; i++) {
 }
 
 console.log('objects with functions:', {a: testFunc, b: testFunc}, testFunc);
-
-console.log('objects with various entities:', [1, 2, 3, { 'a': 3, 2: 'a', b: { a: 'c'} }]);
 
 console.log('native errors:');
 console.log(undefinedVariableForError);
