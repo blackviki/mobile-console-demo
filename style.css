@@ -12,6 +12,7 @@ html, body {
   box-sizing: border-box;
   line-height: 1.5;
   text-align: center;
+  gap: 21px;
 }
 
 .link-style {
