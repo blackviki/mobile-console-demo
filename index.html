@@ -19,6 +19,10 @@ console.warn('warn');
 console.error('error');
 console.debug('debug');
 
+for (let i = 0; i < 5; i++) {
+  console.log('consecutive identical logs');
+}
+
 console.log('strings and objects:', 'hello', 'world"', {'a': 'b', 'c': '"d"', 'e': "'f'"});
 
 function testFunc() {
@@ -59,10 +63,6 @@ const test = {
 };
 
 console.log('objects with getters:', test);
-
-for (let i = 0; i < 5; i++) {
-  console.log('consecutive identical logs');
-}
 
 console.log('native objects:', window);
 
