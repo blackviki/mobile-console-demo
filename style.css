@@ -8,7 +8,8 @@ html, body {
   justify-content: center;
   height: 100%;
   margin: 0;
-  padding: 50px;
+  padding: 21px;
+  box-sizing: border-box;
   line-height: 1.5;
   text-align: center;
 }
