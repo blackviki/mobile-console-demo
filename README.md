@@ -1,6 +1,6 @@
 # Mobile Console demo
 
-A demo for Codeit's Mobile JavaScript Console.
+A demo of Codeit's Mobile Console for JavaScript.
 
-Run `index.html` by swiping up on the footer, then tap the top-left options button and choose Console.
+Open `index.html`, swipe up on the footer, then tap the top-left options button and choose Console.
 
